@@ -2,3 +2,13 @@ node -v
 npm install -g @angular/cli
 ng new ng-recipe-shopping-list
 
+git init
+git remote add origin git@github.com:ujjaldey/ng-recipe-shopping-list.git
+git push --set-upstream origin master
+git pull origin master --allow-unrelated-histories
+git status
+git add .
+git commit
+git push --set-upstream origin master
+
+
