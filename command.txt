@@ -1,0 +1,4 @@
+node -v
+npm install -g @angular/cli
+ng new ng-recipe-shopping-list
+
