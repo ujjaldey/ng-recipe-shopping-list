@@ -17,6 +17,9 @@ ng g d shared/dropdown --spec false
 ng g s recipes/recipe --spec false
 ng g s shopping-list/shopping-list --spec false
 
+ng g c recipes/recipe-start --spec false
+ng g c recipes/recipe-edit --spec false
+
 git init
 git remote add origin git@github.com:ujjaldey/ng-recipe-shopping-list.git
 git push --set-upstream origin master
