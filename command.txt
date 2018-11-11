@@ -22,6 +22,13 @@ ng g c recipes/recipe-edit --spec false
 
 ng g s shared/data-storage --spec false
 
+ng g c auth/signup --spec false
+ng g c auth/signin --spec false
+
+npm install --save firebase
+
+ng g s auth/auth --spec false
+ng g s auth/auth-guard --spec false
 
 git init
 git remote add origin git@github.com:ujjaldey/ng-recipe-shopping-list.git
