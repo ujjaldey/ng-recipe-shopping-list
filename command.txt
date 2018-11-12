@@ -3,6 +3,8 @@ npm install -g @angular/cli
 ng new ng-recipe-shopping-list
 ng serve
 
+ng build --prod --aot
+
 npm install --save bootstrap@3
 
 ng g c header --spec false
@@ -29,6 +31,18 @@ npm install --save firebase
 
 ng g s auth/auth --spec false
 ng g s auth/auth-guard --spec false
+
+ng g m recipes --spec false
+ng g m recipes/recipes-routing --spec false
+ng g m shared --spec false
+ng g m shopping-list --spec false
+ng g m auth --spec false
+ng g m auth/auth-routing --spec false
+
+ng g c home --spec false
+ng g m core --spec false
+
+
 
 git init
 git remote add origin git@github.com:ujjaldey/ng-recipe-shopping-list.git
