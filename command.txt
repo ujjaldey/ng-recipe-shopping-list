@@ -43,7 +43,6 @@ ng g c home --spec false
 ng g m core --spec false
 
 
-
 git init
 git remote add origin git@github.com:ujjaldey/ng-recipe-shopping-list.git
 git push --set-upstream origin master
