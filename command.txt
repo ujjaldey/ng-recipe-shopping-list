@@ -6,6 +6,7 @@ ng serve
 ng build --prod --aot
 
 npm install --save bootstrap@3
+npm install --save @ngrx/store
 
 ng g c header --spec false
 ng g c recipes --spec false
