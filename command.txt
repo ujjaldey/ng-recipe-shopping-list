@@ -7,6 +7,12 @@ ng build --prod --aot
 
 npm install --save bootstrap@3
 npm install --save @ngrx/store
+npm install --save @ngrx/effects
+npm install --save @ngrx/router-store
+npm install --save @ngrx/store-devtools
+
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+
 
 ng g c header --spec false
 ng g c recipes --spec false
